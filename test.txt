@@ -1,0 +1,564 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:80             LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            LTIN1347:0             LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:443            LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:445            LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:903            LTIN1347:0             LISTENING
+ [vmware-authd.exe]
+  TCP    0.0.0.0:913            LTIN1347:0             LISTENING
+ [vmware-authd.exe]
+  TCP    0.0.0.0:1025           LTIN1347:0             LISTENING
+ [wininit.exe]
+  TCP    0.0.0.0:1026           LTIN1347:0             LISTENING
+  eventlog
+ [svchost.exe]
+  TCP    0.0.0.0:1027           LTIN1347:0             LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:1028           LTIN1347:0             LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:2383           LTIN1347:0             LISTENING
+ [msmdsrv.exe]
+  TCP    0.0.0.0:3000           LTIN1347:0             LISTENING
+ [node.exe]
+  TCP    0.0.0.0:3389           LTIN1347:0             LISTENING
+  CryptSvc
+ [svchost.exe]
+  TCP    0.0.0.0:5357           LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:5900           LTIN1347:0             LISTENING
+ [vncserver.exe]
+  TCP    0.0.0.0:6666           LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:6669           LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:8083           LTIN1347:0             LISTENING
+ [FrameworkService.exe]
+  TCP    0.0.0.0:8490           LTIN1347:0             LISTENING
+ [node.exe]
+  TCP    0.0.0.0:13917          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13920          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13926          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13929          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13937          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13940          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13982          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:13985          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:16346          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:16349          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:16395          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:16398          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:19047          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:19050          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:23722          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:23725          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:23729          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:23732          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:26177          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:26180          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:27633          LTIN1347:0             LISTENING
+ [services.exe]
+  TCP    0.0.0.0:27635          LTIN1347:0             LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    0.0.0.0:27854          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:27857          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:29826          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:29829          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:31164          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:31167          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:31170          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:31173          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:32977          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:32980          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:33111          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:33114          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:33831          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:33834          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:39239          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:39242          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:48530          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:48533          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:54479          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:54482          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:54535          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:54538          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:54595          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:54598          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:58156          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:58159          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:59295          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    0.0.0.0:59298          LTIN1347:0             LISTENING
+ [McpService.exe]
+  TCP    10.121.45.81:5051      mail:https             CLOSE_WAIT
+ [eclipse.exe]
+  TCP    10.121.45.81:54640     10.121.41.5:58144      ESTABLISHED
+ [spoolsv.exe]
+  TCP    127.0.0.1:1434         LTIN1347:0             LISTENING
+ [sqlservr.exe]
+  TCP    127.0.0.1:3333         LTIN1347:0             LISTENING
+ [JuniperSetupClient.exe]
+  TCP    127.0.0.1:4242         LTIN1347:0             LISTENING
+ [dsNcService.exe]
+  TCP    127.0.0.1:8006         LTIN1347:8490          ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:8490         LTIN1347:8006          ESTABLISHED
+ [node.exe]
+  TCP    127.0.0.1:8490         LTIN1347:16915         ESTABLISHED
+ [node.exe]
+  TCP    127.0.0.1:8490         LTIN1347:45501         ESTABLISHED
+ [node.exe]
+  TCP    127.0.0.1:16915        LTIN1347:8490          ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:26368        LTIN1347:26369         ESTABLISHED
+ [vncserver.exe]
+  TCP    127.0.0.1:26369        LTIN1347:26368         ESTABLISHED
+ [vncserverui.exe]
+  TCP    127.0.0.1:28019        LTIN1347:0             LISTENING
+ [SCNotification.exe]
+  TCP    127.0.0.1:31315        LTIN1347:31316         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:31316        LTIN1347:31315         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:31690        LTIN1347:31691         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:31691        LTIN1347:31690         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:31873        LTIN1347:31874         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:31874        LTIN1347:31873         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:32155        LTIN1347:32156         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:32156        LTIN1347:32155         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:32177        LTIN1347:32178         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:32178        LTIN1347:32177         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:32192        LTIN1347:32193         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:32193        LTIN1347:32192         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:32245        LTIN1347:32246         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:32246        LTIN1347:32245         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:32303        LTIN1347:32304         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:32304        LTIN1347:32303         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:32564        LTIN1347:32565         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:32565        LTIN1347:32564         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33391        LTIN1347:33392         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33392        LTIN1347:33391         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33407        LTIN1347:33408         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33408        LTIN1347:33407         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33424        LTIN1347:33425         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33425        LTIN1347:33424         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33439        LTIN1347:33440         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33440        LTIN1347:33439         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33448        LTIN1347:33449         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33449        LTIN1347:33448         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33457        LTIN1347:33458         ESTABLISHED
+ [OUTLOOK.EXE]
+  TCP    127.0.0.1:33458        LTIN1347:33457         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33464        LTIN1347:33465         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33465        LTIN1347:33464         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33470        LTIN1347:33471         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33471        LTIN1347:33470         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33531        LTIN1347:33532         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33532        LTIN1347:33531         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33546        LTIN1347:33547         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33547        LTIN1347:33546         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33549        LTIN1347:33550         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33550        LTIN1347:33549         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33552        LTIN1347:33553         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33553        LTIN1347:33552         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33555        LTIN1347:33556         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33556        LTIN1347:33555         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33558        LTIN1347:33559         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33559        LTIN1347:33558         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33561        LTIN1347:33562         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33562        LTIN1347:33561         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33564        LTIN1347:33565         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33565        LTIN1347:33564         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33567        LTIN1347:33568         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33568        LTIN1347:33567         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33594        LTIN1347:33595         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33595        LTIN1347:33594         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33597        LTIN1347:33598         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33598        LTIN1347:33597         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33600        LTIN1347:33601         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33601        LTIN1347:33600         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:33619        LTIN1347:33620         CLOSE_WAIT
+ [chrome.exe]
+  TCP    127.0.0.1:33620        LTIN1347:33619         FIN_WAIT_2
+ [McpService.exe]
+  TCP    127.0.0.1:33622        LTIN1347:33623         ESTABLISHED
+ [chrome.exe]
+  TCP    127.0.0.1:33623        LTIN1347:33622         ESTABLISHED
+ [McpService.exe]
+  TCP    127.0.0.1:45501        LTIN1347:8490          ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.1.142:139      LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.142:31165    mxl069v192:8080        CLOSE_WAIT
+ [McpService.exe]
+  TCP    192.168.1.142:31168    mxl069v192:8080        CLOSE_WAIT
+ [McpService.exe]
+  TCP    192.168.1.142:31171    mxl069v192:8080        CLOSE_WAIT
+ [McpService.exe]
+  TCP    192.168.1.142:31174    mxl069v192:8080        CLOSE_WAIT
+ [McpService.exe]
+  TCP    192.168.1.142:31259    sippoolbn11a10:https   ESTABLISHED
+ [lync.exe]
+  TCP    192.168.1.142:31317    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:31692    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:31875    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:32157    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:32179    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:32194    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:32217    132.245.254.98:https   ESTABLISHED
+ [OUTLOOK.EXE]
+  TCP    192.168.1.142:32247    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:32305    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:32566    mxl069v192:8080        ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33097    40.100.29.34:https     ESTABLISHED
+  BITS
+ [svchost.exe]
+  TCP    192.168.1.142:33387    40.100.1.162:https     ESTABLISHED
+ [UcMapi.exe]
+  TCP    192.168.1.142:33393    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33409    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33413    40.100.1.162:https     ESTABLISHED
+ [OUTLOOK.EXE]
+  TCP    192.168.1.142:33419    40.100.1.162:https     ESTABLISHED
+ [UcMapi.exe]
+  TCP    192.168.1.142:33426    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33441    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33450    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33459    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33466    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33472    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33533    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33548    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33551    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33554    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33557    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33560    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33563    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33566    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33569    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33596    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33599    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33602    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33624    185.125.224.130:8080   ESTABLISHED
+ [McpService.exe]
+  TCP    192.168.1.142:33627    168.63.242.221:https   TIME_WAIT
+  TCP    192.168.1.142:61185    sb-in-f188:5228        ESTABLISHED
+ [chrome.exe]
+  TCP    192.168.78.1:139       LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    192.168.197.1:139      LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    [::]:80                LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    [::]:135               LTIN1347:0             LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:443               LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    [::]:445               LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    [::]:1025              LTIN1347:0             LISTENING
+ [wininit.exe]
+  TCP    [::]:1026              LTIN1347:0             LISTENING
+  eventlog
+ [svchost.exe]
+  TCP    [::]:1027              LTIN1347:0             LISTENING
+ [lsass.exe]
+  TCP    [::]:1028              LTIN1347:0             LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:2383              LTIN1347:0             LISTENING
+ [msmdsrv.exe]
+  TCP    [::]:3389              LTIN1347:0             LISTENING
+  CryptSvc
+ [svchost.exe]
+  TCP    [::]:5357              LTIN1347:0             LISTENING
+ Can not obtain ownership information
+  TCP    [::]:5900              LTIN1347:0             LISTENING
+ [vncserver.exe]
+  TCP    [::]:8083              LTIN1347:0             LISTENING
+ [FrameworkService.exe]
+  TCP    [::]:27633             LTIN1347:0             LISTENING
+ [services.exe]
+  TCP    [::]:27635             LTIN1347:0             LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    [::1]:1434             LTIN1347:0             LISTENING
+ [sqlservr.exe]
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                    
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                    
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                    
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                    
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                    
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                    
+ [chrome.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:58260          *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    127.0.0.1:1900         *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:51718        *:*                    
+ [lync.exe]
+  UDP    127.0.0.1:52434        *:*                    
+  NlaSvc
+ [svchost.exe]
+  UDP    127.0.0.1:52669        *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:53492        *:*                    
+ [CcmExec.exe]
+  UDP    127.0.0.1:55374        *:*                    
+ [WINWORD.EXE]
+  UDP    127.0.0.1:56090        *:*                    
+ [taskhost.exe]
+  UDP    127.0.0.1:57224        *:*                    
+ [lsass.exe]
+  UDP    127.0.0.1:60063        *:*                    
+  gpsvc
+ [svchost.exe]
+  UDP    127.0.0.1:60304        *:*                    
+ [OUTLOOK.EXE]
+  UDP    192.168.1.142:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.142:138      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.142:1900     *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.142:52666    *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.78.1:137       *:*                    
+ Can not obtain ownership information
+  UDP    192.168.78.1:138       *:*                    
+ Can not obtain ownership information
+  UDP    192.168.78.1:1900      *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.78.1:52667     *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.197.1:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.197.1:138      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.197.1:1900     *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.197.1:52668    *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:3702              *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    [::]:3702              *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    [::]:4500              *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:5353              *:*                    
+ [chrome.exe]
+  UDP    [::]:5353              *:*                    
+ [chrome.exe]
+  UDP    [::]:5353              *:*                    
+ [chrome.exe]
+  UDP    [::]:5355              *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:58261             *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:52665            *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::18e3:e5be:62ac:182%20]:1900  *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::18e3:e5be:62ac:182%20]:52664  *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::551a:efc2:859:6881%13]:1900  *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::551a:efc2:859:6881%13]:52662  *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::58d4:76b2:48a9:268d%19]:1900  *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::58d4:76b2:48a9:268d%19]:52663  *:*                    
+  SSDPSRV
+ [svchost.exe]
