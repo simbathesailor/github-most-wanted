@@ -43,7 +43,7 @@ function configureStoreDev(initialState) {
       store.replaceReducer(nextReducer);
     });
   }
-
+  console.log(store.getState());
   return store;
 }
 

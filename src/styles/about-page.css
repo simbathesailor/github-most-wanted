@@ -1,10 +1,92 @@
 .alt-header {
   color: green;
 }
+.toprepo-container{
+	width:40%;
+	min-height: 200px; 
+	float: left;
+	margin-left: 10%;
+}
 
 .toprepo{
-	width: 50%;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	 width: 65%;
+	 float: right;
 }
+.toprepo img{
+	height: 60px;
+    float: right;
+   
+
+}
+.toprepo li{
+    border: 1px solid #5bb7db;
+    height: 60px;
+    width: 100%;
+    float: right;
+    padding-left: 10px;
+   
+}
+.topstarred li{
+    border: 1px solid #5bb7db;
+    height: 60px;
+    width: 100%;
+    float: left;
+    padding-left: 10px;
+}
+
 .topstarred{
+	list-style: none;
+	display: inline-block;
+	width: 65%;
+	float: left;
+}
+.repo-owner-img{
+	height: 60px;
+    float: right;
+}
+.repo-name{
+	float: left;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 16px;
+}
+.star-count{
+	line-height: 2em;
+	float: right;
+    padding-right: 6px;
+}
+
+.topstarred-container {
+	width: 40%;
+	min-height: 200px; 
+	float: left;
+	position: relative;
+}
+.heading-forked{
+	  
+    float: right;
+}
+.heading-starred{
 	width: 50%;
+	float: left;
+}
+.bold-font{
+	font-weight: bold;
+}
+
+.loader {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    z-index: 99999;
+    margin: auto;
+    left: 48%;
+    top: 48%;
+    background-image: url(../loader.gif);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
