@@ -5,10 +5,10 @@ import { Router } from 'react-router';
 
 export default class Root extends Component {
   render() {
-   
-    return (
+   console.log('store state',this.props.store.getState())
+  return (
       <Provider store={this.props.store}>
-        <Router history={this.props.history} routes={routes} />
+        <Router store={this.props.store} history={this.props.history} routes={routes} />
       </Provider>
     );
   }

@@ -15,7 +15,7 @@ export default function MostStarredRepoReducer(state = initialState, action) {
 
         case MostStarredRepoConstants.GET_MOST_STARRED_REPOS_SUCCESS :
             return assign({}, state, {
-                    topStarredRepo: action.items,
+                    topStarredRepo: action.payload.items,
                     isFetched : true,
                     isFetching : false
                 });

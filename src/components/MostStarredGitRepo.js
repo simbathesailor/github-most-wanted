@@ -10,55 +10,28 @@ class MostStarredGitRepoComponent extends Component{
 		super(props);
 		this.state={
 			topStarredRepo : [],
-			intervalId : null,
+			timeOutId : null,
 			isFetching:true
 		}
 		
 		this.createHtmlForTopStarred = this.createHtmlForTopStarred.bind(this);
 	}
 	componentDidMount(){
-		var callback = (success,error)=>{
-			
-			this.setState({
-				isFetching : false
-			})
-			if(success){
-				this.setState({
-					topStarredRepo : success.items,
-					intervalId : null
-				})
-			}
-			if(error){
-
-			}
-		};
-		getData('https://api.github.com/search/repositories?q=all&sort=stars&order=desc&page=1',callback);
-		this.setState
-		var that = this;
-
-		var intervalId=setInterval(function(){
-			if(!that.state.intervalId){
-			getData('https://api.github.com/search/repositories?q=all&sort=stars&order=desc&page=1',callback);
-			}
-			that.setState({
-				isFetching : true
-			})
-		},10000);	
-
-		this.setState({
-			intervalId : intervalId
-		});
-		
-		
+		var url ='https://api.github.com/search/repositories?q=all&sort=stars&order=desc&page=1';
+		this.props.dispatch(actions.getTopStarredRepos(url));
 	}
 	componentWillReceiveProps(nextProps){
  		this.setState({
  			topStarredRepo : nextProps.data.topStarredRepo
  		});
+ 		var timeOutId = setTimeout(()=>{
+ 			var url ='https://api.github.com/search/repositories?q=all&sort=stars&order=desc&page=1';
+			this.props.dispatch(actions.getTopStarredRepos(url));
+ 		},10000)
 	}
 	createHtmlForTopStarred(){
 		
-		var data = this.state.topStarredRepo;
+		var data = this.props.data.topStarredRepo;
 		if(data.length==0){
 			return null;
 		}
@@ -89,7 +62,7 @@ class MostStarredGitRepoComponent extends Component{
 	      <h2 className='heading-starred'>***Most Starred Repos***</h2>
 	      <ul className='topstarred'>
 	      	{this.createHtmlForTopStarred()}
-	      	{this.state.isFetching && <LoaderComponent />}
+	      	{this.props.data.isFetching && <LoaderComponent />}
 	      </ul>
 	      </div>
   		);	
@@ -99,7 +72,7 @@ class MostStarredGitRepoComponent extends Component{
 
 function select(state) {
 	return {
-		data: state.topStarredRepo
+		data: state.MostStarredRepoReducer
 	};
 }
 

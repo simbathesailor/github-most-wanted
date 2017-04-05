@@ -11,49 +11,28 @@ class MostForkedGitRepoComponent extends Component {
 		super(props);
 		this.state ={
 			topForkedRepo : [],
-			intervalId : null,
+			timeOutId : null,
 			isFetching:true
 		}
 		this.createHtmlForTopForked = this.createHtmlForTopForked.bind(this);
 	}
 	componentDidMount(){
-		var callback = (success,error)=>{
-			
-			this.setState({
-				isFetching : false
-			})
-			if(success){
-				this.setState({
-					topForkedRepo : success.items,
-					intervalId : null
-				})
-			}
-			if(error){
-
-			}
-		};
-		getData('https://api.github.com/search/repositories?q=all&sort=forks&order=desc&page=1',callback);
-		var that = this;
-
-		var intervalId=setInterval(function(){
-			if(!that.state.intervalId){
-			getData('https://api.github.com/search/repositories?q=all&sort=forks&order=desc&page=1',callback);
-			that.setState({
-				isFetching : true
-			})
-			}
-		},10000);	
-
+		var url ='https://api.github.com/search/repositories?q=all&sort=forks&order=desc&page=1';
+		this.props.dispatch(actions.getTopForkedRepos(url));
+	}
+	componentWillReceiveProps(nextProps){
 		this.setState({
-			intervalId : intervalId
-		});
-		
-		
+ 			topForkedRepo : nextProps.data.topForkedRepo
+ 		});
+ 		var timeOutId = setTimeout(()=>{
+ 			var url ='https://api.github.com/search/repositories?q=all&sort=forks&order=desc&page=1';
+			this.props.dispatch(actions.getTopForkedRepos(url));
+ 		},10000)
 	}
 
 	createHtmlForTopForked(){
 		
-		var data = this.state.topForkedRepo;
+		var data = this.props.data.topForkedRepo;
 		if(data.length==0){
 			return null;
 		}
@@ -83,7 +62,7 @@ class MostForkedGitRepoComponent extends Component {
 	      <h2 className='heading-forked'>***Most Popular/Forked Repos***</h2>
 	      <ul className='toprepo'>
 	    	{this.createHtmlForTopForked()}
-	    	{this.state.isFetching && <LoaderComponent />}
+	    	{this.props.data.isFetching && <LoaderComponent />}
 	      </ul>  	
 	      </div>
 	  );
@@ -92,7 +71,7 @@ class MostForkedGitRepoComponent extends Component {
 }
 function select(state) {
 	return {
-		data: state.topForkedRepo
+		data: state.MostForkedRepoReducer
 	};
 }
 

@@ -5,7 +5,7 @@ import AppService from '../AppServices/AjaxService';
 
 
 const  getTopForkedRepos = (url)=> {
-	console.log('url is',url);
+	
 	return (dispatch) => {
 		dispatch(getMostForkedFetchRequest());
 		

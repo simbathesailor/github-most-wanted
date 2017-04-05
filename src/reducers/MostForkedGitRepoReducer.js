@@ -4,18 +4,19 @@ const assign = Object.assign || require('object.assign');
 
 
 const initialState = {
-    topForkedRepo:[],
+    topForkedRepo : [],
     isFetching : false,
     isFetched : false
 };
 
 // Takes care of changing the application state
 export default function MostForkedRepoReducer(state = initialState, action) {
+     console.log(action);
      switch (action.type) {
 
         case MostForkedRepoConstants.GET_MOST_FORKED_REPOS_SUCCESS :
             return assign({}, state, {
-                    topForkedRepo: action.items,
+                    topForkedRepo : action.payload.items,
                     isFetched : true,
                     isFetching : false
                 });
