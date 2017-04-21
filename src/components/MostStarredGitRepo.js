@@ -21,13 +21,22 @@ class MostStarredGitRepoComponent extends Component{
 		this.props.dispatch(actions.getTopStarredRepos(url));
 	}
 	componentWillReceiveProps(nextProps){
- 		this.setState({
+		this.setState({
  			topStarredRepo : nextProps.data.topStarredRepo
- 		});
+ 		}); 
+ 		if(this.state.timeOutId){
+ 			clearTimeout(this.state.timeOutId);
+ 		}
+ 		
+
  		var timeOutId = setTimeout(()=>{
  			var url ='https://api.github.com/search/repositories?q=all&sort=stars&order=desc&page=1';
-			this.props.dispatch(actions.getTopStarredRepos(url));
- 		},10000)
+ 			this.props.dispatch(actions.getTopStarredRepos(url));
+ 		},10000);
+ 		this.setState({
+ 			timeOutId : timeOutId
+ 		})
+
 	}
 	createHtmlForTopStarred(){
 		
