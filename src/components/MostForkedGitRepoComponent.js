@@ -24,10 +24,18 @@ class MostForkedGitRepoComponent extends Component {
 		this.setState({
  			topForkedRepo : nextProps.data.topForkedRepo
  		});
+ 		if(this.state.timeOutId){
+ 			clearTimeout(this.state.timeOutId);
+ 		}
+ 		
+
  		var timeOutId = setTimeout(()=>{
  			var url ='https://api.github.com/search/repositories?q=all&sort=forks&order=desc&page=1';
-			this.props.dispatch(actions.getTopForkedRepos(url));
- 		},10000)
+ 			this.props.dispatch(actions.getTopForkedRepos(url));
+ 		},10000);
+ 		this.setState({
+ 			timeOutId : timeOutId
+ 		})
 	}
 
 	createHtmlForTopForked(){
